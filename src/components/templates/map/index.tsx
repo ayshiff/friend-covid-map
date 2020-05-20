@@ -108,7 +108,7 @@ const Mapboxgl = ({
         : [String(ev.lngLat.lng.toFixed(3)), String(ev.lngLat.lat.toFixed(3))],
       color: pointColor,
       name: pointName,
-      adress: "",
+      address: "",
       isShown: true,
     });
     setPointName("");
