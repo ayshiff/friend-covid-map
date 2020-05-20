@@ -1350,6 +1350,14 @@
     "@telerik/kendo-draggable" "^2.1.0"
     prop-types "^15.6.0"
 
+"@progress/kendo-react-data-tools@^3.14.0":
+  version "3.14.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-react-data-tools/-/kendo-react-data-tools-3.14.0.tgz#3b9bda070fc9fe390531327a0f2256fd0b7c7ec6"
+  integrity sha512-d61GKvM8lyxvwGnGXVhOXPw+WSeJKvnmUzSHSKLeSofwNxWAbh2a5aIDfxZlXcHkfXad0TNyq0eldFrtHW9luw==
+  dependencies:
+    "@progress/kendo-react-common" "3.14.0"
+    prop-types "^15.6.0"
+
 "@progress/kendo-react-dialogs@^3.14.0":
   version "3.14.0"
   resolved "https://registry.yarnpkg.com/@progress/kendo-react-dialogs/-/kendo-react-dialogs-3.14.0.tgz#a097eb611e99e427eee58a10e2eaca921122f04d"

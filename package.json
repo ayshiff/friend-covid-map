@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@progress/kendo-drawing": "^1.7.0",
+    "@progress/kendo-react-data-tools": "^3.14.0",
     "@progress/kendo-react-dialogs": "^3.14.0",
     "@progress/kendo-react-dropdowns": "^3.14.0",
     "@progress/kendo-react-grid": "^3.14.0",
@@ -40,8 +41,7 @@
     "typescript": "~3.7.2"
   },
   "scripts": {
-    "start:dev": "react-scripts start",
-    "start": "serve -s build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
