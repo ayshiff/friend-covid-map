@@ -1,0 +1,17 @@
+/* Override default styles */
+
+.k-drawer-item.k-state-selected {
+  background-color: rgb(212,51,31) !important;
+}
+.k-drawer-container {
+  position: relative !important;
+}
+.k-drawer-mini .k-drawer.k-drawer-start {
+  height: calc(100vh - 40px);
+}
+.k-switch-on .k-switch-container {
+  background-color: rgb(212,51,31) !important;
+}
+.k-dialog-titlebar {
+  background-color: rgb(212,51,31) !important;
+}
