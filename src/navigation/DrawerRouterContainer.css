@@ -4,10 +4,10 @@
   background-color: rgb(212,51,31) !important;
 }
 .k-drawer-container {
-  position: relative !important;
+  overflow: scroll;
 }
 .k-drawer-mini .k-drawer.k-drawer-start {
-  height: calc(100vh - 40px);
+  height: calc(100vh - 46px);
 }
 .k-switch-on .k-switch-container {
   background-color: rgb(212,51,31) !important;

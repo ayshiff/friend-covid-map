@@ -9,7 +9,6 @@ import styled from "styled-components";
 /* Styled components */
 
 const StyledDrawerRouterContainer = styled.div`
-  width: 100%;
   background-color: white;
   line-height: 10px;
   display: flex;
