@@ -13,6 +13,7 @@ import {
   metersToPixelsAtMaxZoom,
   generateRandomId,
 } from "../../../utils/calculation";
+React.useLayoutEffect = React.useEffect 
 
 /* Map config */
 
@@ -21,8 +22,8 @@ const Map = ReactMapboxGl({
 });
 
 const mapContainerStyle = {
-  height: "calc(100vh - 40px)",
-  width: "100vw",
+  height: "calc(100vh - 46px)",
+  width: "calc(100vw - 50px)",
 };
 
 /* Styled components */
@@ -61,8 +62,8 @@ const StyledInfoContainer = styled.div`
 `;
 
 const StyledMapContainer = styled.div`
-  width: 100vw;
-  height: calc(100vh - 40px);
+  width: calc(100vw - 50px);
+  height: calc(100vh - 46px);
   display: block;
   position: relative;
   position: block;
@@ -107,7 +108,7 @@ const Mapboxgl = ({
         : [String(ev.lngLat.lng.toFixed(3)), String(ev.lngLat.lat.toFixed(3))],
       color: pointColor,
       name: pointName,
-      adress: "",
+      address: "",
       isShown: true,
     });
     setPointName("");

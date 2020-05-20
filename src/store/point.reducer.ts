@@ -24,6 +24,16 @@ export default (state = initialState, action: any) => {
           return oldPoint;
         }),
       };
+    case PointTypes.AddPointAddressSuccess:
+      const { address, id } = action.payload;
+      return {
+        list: state.list.map((oldPoint: IPoint) => {
+          if (oldPoint.id === id) {
+            return { ...oldPoint, address };
+          }
+          return oldPoint;
+        }),
+      };
     default:
       return state;
   }

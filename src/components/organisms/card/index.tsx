@@ -59,7 +59,9 @@ export const CardComponent = (props: IProps) => {
           <CardTitle style={{ fontWeight: "bold" }}>
             {props.point.name}
           </CardTitle>
-          <CardSubtitle></CardSubtitle>
+          <CardSubtitle>
+          {props.point.address}
+          </CardSubtitle>
         </CardHeader>
         <CardBody>
           <InputComponent

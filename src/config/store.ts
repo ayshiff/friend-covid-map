@@ -4,6 +4,7 @@ import { ajax } from "rxjs/ajax";
 import { persistStore, persistReducer } from "redux-persist";
 import storage from "redux-persist/lib/storage";
 import rootReducer from "../store/index";
+import rootEpics from '../epics/index';
 
 export const dependencies = { ajax } as const;
 
@@ -28,4 +29,4 @@ export const store: Store<any> = createStore(
 );
 export const persistor = persistStore(store);
 
-// epicMiddleware.run(rootEpics);
+epicMiddleware.run(rootEpics);

@@ -4,14 +4,24 @@
   background-color: rgb(212,51,31) !important;
 }
 .k-drawer-container {
-  position: relative !important;
+  overflow: scroll;
 }
 .k-drawer-mini .k-drawer.k-drawer-start {
-  height: calc(100vh - 40px);
+  height: calc(100vh - 46px);
 }
 .k-switch-on .k-switch-container {
   background-color: rgb(212,51,31) !important;
 }
 .k-dialog-titlebar {
   background-color: rgb(212,51,31) !important;
+}
+.k-card-header {
+  height: 70px;
+}
+.k-card-body {
+  display: flex !important;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  height: 160px;
 }
