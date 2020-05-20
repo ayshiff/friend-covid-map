@@ -5,6 +5,8 @@
   "dependencies": {
     "@progress/kendo-data-query": "^1.5.3",
     "@progress/kendo-drawing": "^1.7.0",
+    "@progress/kendo-react-animation": "^3.14.0",
+    "@progress/kendo-react-buttons": "^3.14.0",
     "@progress/kendo-react-data-tools": "^3.14.0",
     "@progress/kendo-react-dateinputs": "^3.14.0",
     "@progress/kendo-react-dialogs": "^3.14.0",
@@ -14,6 +16,7 @@
     "@progress/kendo-react-intl": "^3.14.0",
     "@progress/kendo-react-labels": "^3.14.0",
     "@progress/kendo-react-layout": "^3.14.0",
+    "@progress/kendo-react-popup": "^3.14.0",
     "@progress/kendo-react-progressbars": "^3.14.0",
     "@progress/kendo-theme-default": "^4.18.1",
     "@testing-library/jest-dom": "^4.2.4",
@@ -39,6 +42,7 @@
     "redux": "^4.0.5",
     "redux-observable": "^1.2.0",
     "redux-persist": "^6.0.0",
+    "rxjs": "^6.5.5",
     "styled-components": "^5.1.0",
     "typescript": "~3.7.2"
   },
