@@ -225,6 +225,7 @@ const Mapboxgl = ({
                 onClick={() => {
                   toggleModal(false);
                   handleClick();
+                  setPointName("");
                 }}
               >
                 Confirm
