@@ -65,12 +65,12 @@ export const CardComponent = (props: IProps) => {
         </CardHeader>
         <CardBody>
           <InputComponent
-            label="Lat"
+            label="Latitude"
             onChange={(el: any) => updateLatitude(el.value)}
             value={props.point.position[0]}
           />
           <InputComponent
-            label="Lng"
+            label="Longitude"
             onChange={(el: any) => updateLongitude(el.value)}
             value={props.point.position[1]}
           />
