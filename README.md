@@ -3,24 +3,30 @@
 </p>
 
 **Deconfinement - COVID-19**    
-As the french government said, you should be able to move within a radius of 100km radius around your home. This app helps you find the the best place to meet your family - friends.
+As the french government said, you should be able to move within a radius of 100km radius around your home. This app helps you **find the the best place to meet your family - friends**.
 
-This project was built during the react-europe hackathon 2020 using ReactJS, TypeScript, redux, redux-observable, styled-components, mapbox and KendoReact.
+This project was built during the **react-europe hackathon 2020** using ReactJS, TypeScript, redux, redux-observable, styled-components, mapbox and KendoReact.
+
+<div align="center">
+<img height="200" src="https://miro.medium.com/max/1400/1*6a8luEwhNAzfsxDja_3sAA.png" >
+</div>
 
 (**NOTE**: I would have liked to add more stuff to the project: tests, CI/CD... and more features too. Feel free to open an issue if you want to add something to the project !)
+
+**IMPORTANT NOTE :** This project is a WIP and it was made for fun, use it with caution. I release myself from any misuse. The deconfinement rules can change and other paremeters are to take into account. Please refer to https://www.gouvernement.fr/info-coronavirus for real informations.
 
 ## Screens
 
 ### Map
 
 <p align="center">
-  <img src="./assets/map.png" width="600"/>
+  <img src="./assets/map.png" width="800"/>
 </p>
 
 ### Dashboard
 
 <p align="center">
-  <img src="./assets/dashboard.png" width="600"/>
+  <img src="./assets/dashboard.png" width="800"/>
 </p>
 
 ## Project structure
